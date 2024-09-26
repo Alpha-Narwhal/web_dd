@@ -1,0 +1,97 @@
+/* General reset for margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #4c4cff;
+    box-shadow: 0 4px 8px rgba(76, 76, 255, 0.2);
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    color: #00d1ff;
+    border-bottom: 2px solid #ae00ff;
+}
+
+/* Main content styles */
+main {
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: 2px solid #ae00ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00d1ff;
+    text-shadow: 2px 2px 5px rgba(0, 209, 255, 0.7);
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #cfcfff;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(76, 76, 255, 0.5);
+    border: 3px solid #00d1ff;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Add hover effect on image */
+img:hover {
+    box-shadow: 0 8px 16px rgba(174, 0, 255, 0.8);
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    img {
+        width: 150px;
+    }
+}
