@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #0f2e9f;
+    --secondary-color: #e47621;
+    --accent1-color: #8300af;
+    --accent2-color: rgb(106, 106, 106);
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a,
+#hero-msg h1, #hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: var(--accent2-color);
+}
+
+header {
+    background-color: rgba(15, 46, 159, 0.7); /* semi-transparent primary color */
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.book, .join {
+    background-color: var(--secondary-color);
+}
+
+.book:hover, .join:hover {
+    background-color: var(--accent1-color);
+}
+
+#background {
+    background-color: var(--accent1-color);
+}
+
+.msg {
+    background-color: var(--accent2-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+nav a {
+    color: var(--accent2-color);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+.home-title,
+h4 {
+    color: var(--primary-color);
+}
+
+.book, .join {
+    color: #ffffff;
+}
+
+.book:hover, .join:hover {
+    color: #ffffff;
+}
+
+.msg h2 {
+    color: var(--primary-color);
+}
+
+.msg p {
+    color: var(--accent2-color);
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+nav a,
+.book, .join,
+footer a {
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
