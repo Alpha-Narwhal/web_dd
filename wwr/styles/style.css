@@ -7,15 +7,14 @@
     --accent2-color: rgb(106, 106, 106);
 }
 
-
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
 nav a,
-#hero-msg h1, #hero-msg h4,
+#hero-msg h1,
+#hero-msg h4,
 .button-box,
 main section {
     text-align: center;
@@ -23,6 +22,7 @@ main section {
 
 #background {
     height: 725px;
+    background-color: var(--accent1-color); /* Moved this from the duplicate */
 }
 
 h2 {
@@ -40,7 +40,6 @@ body {
 header {
     background-color: rgba(15, 46, 159, 0.7); /* semi-transparent primary color */
     font-family: 'Agdasima', Arial, sans-serif;
-
 }
 
 nav a:hover {
@@ -53,10 +52,7 @@ nav a:hover {
 
 .book:hover, .join:hover {
     background-color: var(--accent1-color);
-}
-
-#background {
-    background-color: var(--accent1-color);
+    color: #ffffff; /* Ensure the text remains visible on hover */
 }
 
 .msg {
@@ -97,10 +93,6 @@ h4 {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-}
-
-.book:hover, .join:hover {
-    color: #ffffff;
 }
 
 .msg h2 {
@@ -146,6 +138,10 @@ footer a:hover {
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+    background-color: #fff;
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav a,
@@ -165,4 +161,3 @@ footer p a:hover {
 main section img {
     box-sizing: border-box;
 }
-
