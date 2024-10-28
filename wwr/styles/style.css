@@ -22,7 +22,7 @@ main section {
 
 #background {
     height: 725px;
-    background-color: var(--accent1-color); /* Moved this from the duplicate */
+    background-color: var(--accent1-color);
 }
 
 h2 {
@@ -38,7 +38,7 @@ body {
 }
 
 header {
-    background-color: rgba(15, 46, 159, 0.7); /* semi-transparent primary color */
+    background-color: rgba(15, 46, 159, 0.7);
     font-family: 'Agdasima', Arial, sans-serif;
 }
 
@@ -52,7 +52,7 @@ nav a:hover {
 
 .book:hover, .join:hover {
     background-color: var(--accent1-color);
-    color: #ffffff; /* Ensure the text remains visible on hover */
+    color: #ffffff;
 }
 
 .msg {
