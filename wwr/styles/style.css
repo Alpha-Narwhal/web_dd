@@ -7,17 +7,17 @@
     --accent2-color: rgb(106, 106, 106);
 }
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+body {
+    background-color: white;
+    font-family: 'Agdasima', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
-nav a,
-#hero-msg h1,
-#hero-msg h4,
-.button-box,
-main section {
-    text-align: center;
+#content {
+    max-width: 1600px;
+    margin: 0;
 }
 
 #background {
@@ -25,29 +25,44 @@ main section {
     background-color: var(--accent1-color);
 }
 
-h2 {
-    margin: 0;
-}
-
-body {
-    background-color: var(--accent2-color);
-    font-family: 'Agdasima', Arial, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
-
 header {
     background-color: rgba(15, 46, 159, 0.7);
     font-family: 'Agdasima', Arial, sans-serif;
 }
 
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 35px;
+}
+
 nav a:hover {
     background-color: black;
+    color: var(--secondary-color);
+}
+
+.home-title {
+    color: var(--accent1-color);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: var(--primary-color);
+}
+
+h2 {
+    margin: 0;
 }
 
 .book, .join {
     background-color: var(--secondary-color);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -61,40 +76,6 @@ nav a:hover {
     padding: 35px;
 }
 
-footer {
-    background-color: var(--primary-color);
-    padding: 25px 50px;
-    margin-top: 200px;
-}
-
-footer .social img {
-    padding-top: 15px;
-}
-
-nav a {
-    color: var(--accent2-color);
-    padding: 35px;
-}
-
-nav a:hover {
-    color: var(--secondary-color);
-}
-
-.home-title,
-h4 {
-    color: var(--primary-color);
-    font-size: 2em;
-    margin-top: 10px;
-}
-
-.book, .join {
-    color: #ffffff;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
 .msg h2 {
     color: var(--primary-color);
 }
@@ -103,6 +84,14 @@ h4 {
     color: var(--accent2-color);
     font-size: 0.8em;
     padding-bottom: 15px;
+    color: white;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 200px;
+    color: var(--accent2-color);
 }
 
 footer p {
@@ -116,6 +105,14 @@ footer a {
 }
 
 footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p a:hover {
     text-decoration: underline;
 }
 
@@ -136,22 +133,18 @@ footer a:hover {
     width: 100%;
 }
 
+#hero-msg {
+    margin: auto;
+    text-align: center;
+}
+
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
     background-color: #fff;
-    border-radius: 10px; 
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-nav a,
-.book, .join,
-footer a {
-    text-decoration: none;
-}
-
-footer p a:hover {
-    text-decoration: underline;
+    text-align: center;
 }
 
 .card-img {
@@ -161,3 +154,4 @@ footer p a:hover {
 main section img {
     box-sizing: border-box;
 }
+
