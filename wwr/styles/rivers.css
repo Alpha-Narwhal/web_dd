@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #0f2e9f;
+    --secondary-color: #e47621;
+    --accent1-color: #8300af;
+    --accent2-color: rgb(106, 106, 106);
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Agdasima', Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+header {
+    background-color: #0f2e9f;
+    font-family: 'Agdasima', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: var(--secondary-color);
+}
+
+.intro {
+    text-align: center;
+}
+
+.salmon-river {
+    width: 40%;
+    float: left;
+    padding-right: 5%;
+}
+
+#river1 {
+    height: 300px;
+    padding: 8%;
+    background-color: #0f2e9f;
+}
+
+.des-river {
+    width: 40%;
+    float: right;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+#river2 {
+    height: 250px;
+    padding: 8%;
+}
+
+.gc-river {
+    width: 40%;
+    float: left;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#river3 {
+    height: 250px;
+    padding: 8%;
+    background-color: #0f2e9f;
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 50px;
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
