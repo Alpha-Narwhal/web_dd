@@ -104,17 +104,34 @@ footer a:hover {
 }
 
 #res-but {
-    width: 40%;
-    height: 40px;
+    width: 50%;
+    height: 45px;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
     border-radius: 10px;
+    border: 2px solid black; /* Outline effect */
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
 }
 
+#res-but:hover {
+    background-color: var(--accent1-color); /* Retain original background color */
+    color: white; /* Text color changes on hover */
+}
 #pro-but {
-    width: 40%;
-    height: 40px;
+    width: 50%;
+    height: 45px;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
-    border-radius: 10px;    
+    border-radius: 10px;
+    border: 2px solid black; /* Outline effect */
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#pro-but:hover {
+    background-color: var(--accent1-color); /* Retain original background color */
+    color: white; /* Text color changes on hover */
 }
