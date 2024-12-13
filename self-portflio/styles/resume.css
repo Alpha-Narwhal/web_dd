@@ -20,6 +20,7 @@ header {
     display: grid;
     font-family: 'Agdasima', Arial, sans-serif;
     grid-template-columns: 150px auto;
+    font-size: large;
 }
 
 nav {

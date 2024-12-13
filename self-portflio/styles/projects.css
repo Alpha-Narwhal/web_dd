@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: #9c82f3  ;
+    --secondary-color: #dabfff ;
+    --accent1-color: #4f518c;
+    --accent2-color: black;
+  
+    --heading-font: "Playfair Display", sans-serif;
+    --paragraph-font: "Playfair Display", sans-serif;
+}  
+
+body {
+    font-family: "Playfair Display", sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    font-family: 'Agdasima', Arial, sans-serif;
+    display: grid;
+    font-family: 'Agdasima', Arial, sans-serif;
+    grid-template-columns: 150px auto;
+    font-size: large;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 25px 50px;
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Agdasima', Arial, sans-serif;
+}
+
+footer a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#project-head {
+    text-align: center;
+    margin-top: 6%;
+}
+
+#intro-msg {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.project1 {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    margin-top: 6%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 6%;
+}
+
+#project1-img {
+    height: 100%;
+    width: 100%;
+}
+
+#p1-link {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+#project1-head {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+}
+
+#p1-desc {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+hr.solid-line {
+    border-top: 3px solid var(--primary-color);
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.project2 {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    margin-top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#project2-img {
+    height: 75%;
+    width: 80%;
+    grid-column: 3;
+    grid-row: 1/3;
+}
+
+#project-head {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+}
+
+#p2-desc {
+    grid-column: 1;
+    grid-row: 2;
+    
+}
