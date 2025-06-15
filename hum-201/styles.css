@@ -1,16 +1,16 @@
 /* General styles */
 body {
     font-family: Georgia, serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: #FAF3E0;
-    color: white;
+    background: #1f1f1f;
+    color: #ffffff;
     padding: 1em 0;
     text-align: center;
 }
@@ -25,13 +25,13 @@ nav ul {
 }
 
 nav a {
-    color: #8B4513;
+    color: #d4af37;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #D2691E; 
+    color: #ffd700;
 }
 
 main {
@@ -41,11 +41,12 @@ main {
 }
 
 footer {
-    background-color: #FAF3E0;
+    background-color: #1f1f1f;
     text-align: center;
     padding: 1em;
     font-size: 0.9em;
     margin-top: 2em;
+    color: #bbb;
 }
 
 section img {
@@ -56,13 +57,12 @@ section img {
 }
 
 h2, h3 {
-    color: #2E2E2E;
+    color: #f5f5f5;
 }
 
 h1 {
-    color: #5C3317 ;
+    color: #d4af37;
 }
-
 
 .float-right {
     float: right;
@@ -73,7 +73,8 @@ h1 {
 .float-left {
     float: left;
     margin: 0 20px 20px 0;
-    max-width: 40%;
+    max-width: 30%;
+    max-height: auto;
 }
 
 @media (max-width: 768px) {
@@ -87,14 +88,10 @@ h1 {
 }
 
 .essay-image {
-  width: 800px;        /* Set your desired width */
-  height: 400px;       /* Set your desired height */
-  object-fit: cover;   /* Ensures the image fills the space nicely */
-  border-radius: 8px;  /* Optional: makes the corners rounded */
-  display: block;      /* Helps with spacing */
-  margin-bottom: 10px; /* Optional: space between images and text */
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 10px;
 }
-
-
-
-
